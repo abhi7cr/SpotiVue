@@ -9,7 +9,7 @@ frontend:
         - ln -s dist dist-symlink
         - npm run build
   artifacts:
-    baseDirectory: dist/
+    baseDirectory: dist-symlink/
     files:
       - "**/*"
   cache:
